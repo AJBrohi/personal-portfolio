@@ -1,2 +1,5 @@
-# personal-portfolio
-01/05/2021
+# Personal Portfolio
+
+
+## Logs
+### v0 - using React to built this portfolio site
