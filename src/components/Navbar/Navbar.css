@@ -1,0 +1,38 @@
+.logo{
+    width: 16rem;
+}
+
+nav{
+    z-index: 2;
+}
+
+nav a.nav-link {
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+}
+
+nav ul li{
+    text-transform: uppercase;
+}
+
+.navbar-nav li a{
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    border-top: 0.2rem solid rgba(255,255,255,0);
+}
+
+.navbar-nav li a.active,
+.navbar-nav li a.active:focus{
+    border-top: 0.2rem solid #f9ab00;
+}
+
+.navbar-nav li a:hover{
+    border-top: 0.2rem solid #f9ab00;
+}
+
+.navbar-brand{ 
+    max-width: 17rem;
+    padding: 0;
+    height: 5rem;
+}
+
