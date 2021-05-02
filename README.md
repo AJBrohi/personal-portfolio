@@ -14,3 +14,4 @@
 
 ### v2.1 (02/05/2021)
 * Firebase Deploy Done
+* Email sending option and download cv is available now
