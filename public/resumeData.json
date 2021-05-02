@@ -1,0 +1,261 @@
+{
+  "main": {
+    "name":"Md. Al-Junaed Islam",
+    "description":"I am a final year student in computer science interested in Web Development, Artificial Intelligence and Machine Learning, and Data Science. Additionally, complete a web development internship at RiziqIT Solutions. I am passionate about working with full-stack development, software engineering and also fascinated with data analytics.",
+    "image":"Bro.jpg",
+    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "contactmessage":"Get In Touch",
+    "email": "youremailhere@gmail.com",
+    "phone": "+8801521434504",
+    "github":"https://github.com/AJBrohi",
+    "project":"https://github.com/AJBrohi/personal-portfolio",
+    "address":{
+      "street":"Bijoy Rakeen City, Mirpur 13",
+      "city":"Dhaka",
+      "state":"(Your State)",
+      "zip": "1216"
+    },
+    "website": "https://ajbrohi.github.io/",
+    "resumedownload":"https://ajbrohi.github.io/",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/junu96/",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/Brohi96",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/al-junaed/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/a.j.brohi",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/AJBrohi",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"My Educational Background",
+    "education":[
+      {
+        "school":"BRAC University",
+        "degree":"BSc in Computer Science",
+        "graduated":"September 2021",
+        "description":"Nice experience"
+      },
+      {
+        "school":"Bir Shreshtha Munshi Abdur Rouf Public College",
+        "degree":"HSC",
+        "graduated":"June 2016",
+        "description":"Best time"
+      }
+    ],
+    "work":[
+      {
+        "company":"RiziqIT Solutions",
+        "title":"Web Developer Intern ",
+        "years":"February 2021 - May 2021",
+        "description":"Maintained websites for clients. Developed room booking system for Hotel Sea Alif. Upgraded RiziqIT's website."
+      },
+      {
+        "company":"BRAC University Computer Club",
+        "title":"Assistant Director of Creative Department",
+        "years":"June 2019 - June 2020",
+        "description":"Lead a group of graphics designers for making posters, covers and videos for the various event of BUCC. Make promotional videos for events organized by BUCC."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"60%"
+      },
+      {
+        "name":"Java",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"PHP",
+        "level":"80%"
+      },
+      {
+        "name":"HTML",
+        "level":"50%"
+      },
+      {
+        "name":"MySQL",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"AJ IT Farm (Full Stack)",
+        "category":"React | Node.js | Express.js | MongoDB",
+        "image":"itFarm.png",
+        "githubC":"https://github.com/AJBrohi/it-service-site-client",
+        "githubS":"https://github.com/AJBrohi/it-service-site-server",
+        "live":"https://aj-it-farm.web.app"
+      },
+      {
+        "title":"AJ Book Club (Full Stack)",
+        "category":"React | Node.js | Express.js | MongoDB",
+        "image":"bookClub.jpeg",
+        "githubC":"https://github.com/AJBrohi/bookClub-client-fullStack",
+        "githubS":"https://github.com/AJBrohi/bookClub-server-fullStack",
+        "live":"https://ajs-book-club.web.app/"
+      },
+      {
+        "title":"AJ Transportation (React)",
+        "category":"React | Firebase",
+        "image":"transport.jpeg",
+        "githubC":"https://github.com/AJBrohi/aj-transport-react-auth",
+        "githuS":"",
+        "live":"https://sad-wing-80927f.netlify.app/"
+      },
+      {
+        "title":"My Resume",
+        "category":"HTML | CSS | JavaScript",
+        "image":"resume.jpeg",
+        "githubC":"https://github.com/AJBrohi/ajbrohi.github.io",
+        "githubS":"",
+        "live":"https://ajbrohi.github.io/"
+      },
+      {
+        "title":"Football Leagues (React)",
+        "category":"React",
+        "image":"league.jpeg",
+        "githubC":"https://github.com/AJBrohi/league-of-legends-react-router",
+        "githubS":"",
+        "live":"https://gallant-brattain-8edf4a.netlify.app"
+      },
+      {
+        "title":"UCL Player Transfer",
+        "category":"React",
+        "image":"ucl.jpeg",
+        "githubC":"https://github.com/AJBrohi/player-buying-react-site",
+        "githubS":"",
+        "live":"https://priceless-davinci-f52228.netlify.app/"
+      },
+      {
+        "title":"Temperature API",
+        "category":"HTML | CSS | JavaScript | RestAPI",
+        "image":"temparature.jpeg",
+        "live":"",
+        "githubS":"",
+        "githubC":"https://github.com/AJBrohi/ProgramingHero-WebDev/tree/main/Milestone-5-API/25-api-practice/temperature-hot-master"
+      },
+      {
+        "title":"Pin Matcher",
+        "category":"HTML | CSS | JavaScript",
+        "image":"pin.jpeg",
+        "live":"",
+        "githubS":"",
+        "githubC":"https://github.com/AJBrohi/ProgramingHero-WebDev/tree/main/Milestone-4-Integrate-Javascript/21-pin-matcher-master"
+      },
+      {
+        "title":"Shopping Cart",
+        "category":"HTML | CSS | JavaScript",
+        "image":"cart.jpeg",
+        "live":"",
+        "githubS":"",
+        "githubC":"https://github.com/AJBrohi/ProgramingHero-WebDev/tree/main/Milestone-4-Integrate-Javascript/20-shopping-cart"
+      },
+      {
+        "title":"Bank Dashboard",
+        "category":"HTML | CSS | JavaScript",
+        "image":"bank.jpeg",
+        "live":"",
+        "githubS":"",
+        "githubC":"https://github.com/AJBrohi/ProgramingHero-WebDev/tree/main/Milestone-4-Integrate-Javascript/19-pioneer-bank"
+      },
+      {
+        "title":"E-Commerce Site",
+        "category":"HTML | CSS",
+        "image":"ecommerce.jpeg",
+        "live":"",
+        "githubS":"",
+        "githubC":"https://github.com/AJBrohi/ProgramingHero-WebDev/tree/main/Assignments/2-responsive-website"
+      },
+      {
+        "title":"Airplane Ticket",
+        "category":"HTML | CSS | JavaScript",
+        "image":"airplane.jpeg",
+        "live":"",
+        "githubS":"",
+        "githubC":"https://github.com/AJBrohi/ProgramingHero-WebDev/tree/main/Assignments/4-airplane-ticket"
+      },
+      {
+        "title":"Hotel Sea Alif",
+        "category":"HTML | CSS | JavaScript PHP | MySQL",
+        "image":"seaAlif.jpeg",
+        "live":"",
+        "githubS":"",
+        "githubC":"https://github.com/AJBrohi/hotel-sea-alif-site"
+      },
+      {
+        "title":"Emergency Medical Service",
+        "category":"HTML | CSS | JavaScript PHP | MySQL",
+        "image":"emergency.jpeg",
+        "live":"",
+        "githubS":"",
+        "githubC":"https://github.com/AJBrohi/emergency-medical-php"
+      },
+      {
+        "title":"Mechanic Appointment System",
+        "category":"HTML | CSS | JavaScript PHP | MySQL",
+        "image":"mechanic.jpeg",
+        "live":"",
+        "githubS":"",
+        "githubC":"https://github.com/AJBrohi/hotel-sea-alif-site"
+      }
+    ]
+  },
+  "blogs":{
+    "blogsList": [
+      {
+        "title":"Blog 1",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
+        "image":"",
+        "link":""
+      },
+      {
+        "title":"Blog 2",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
+        "image":"",
+        "link":""
+      },
+      {
+        "title":"Blog 3",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
+        "image":"",
+        "link":""
+      },
+      {
+        "title":"Blog 4",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
+        "image":"",
+        "link":""
+      }
+    ]
+  }
+}
