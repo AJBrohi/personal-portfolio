@@ -92,8 +92,8 @@ class Contact extends Component {
                       Message <span className="required">*</span>
                     </label>
                     <textarea
-                      cols="50"
-                      rows="15"
+                      cols="10"
+                      rows="3"
                       id="contactMessage"
                       name="contactMessage"
                     ></textarea>

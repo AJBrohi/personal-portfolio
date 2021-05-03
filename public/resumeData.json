@@ -19,14 +19,9 @@
     "resumedownload":"https://ajbrohi.github.io/",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://www.facebook.com/junu96/",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"https://twitter.com/Brohi96",
-        "className":"fa fa-twitter"
+        "name":"github",
+        "url":"https://github.com/AJBrohi",
+        "className":"fa fa-github"
       },
       {
         "name":"linkedin",
@@ -34,14 +29,19 @@
         "className":"fa fa-linkedin"
       },
       {
+        "name":"facebook",
+        "url":"https://www.facebook.com/junu96/",
+        "className":"fa fa-facebook"
+      },
+      {
         "name":"instagram",
         "url":"http://instagram.com/a.j.brohi",
         "className":"fa fa-instagram"
       },
       {
-        "name":"github",
-        "url":"https://github.com/AJBrohi",
-        "className":"fa fa-github"
+        "name":"twitter",
+        "url":"https://twitter.com/Brohi96",
+        "className":"fa fa-twitter"
       }
     ]
   },
@@ -107,14 +107,15 @@
     ]
   },
   "portfolio":{
-    "projects": [
+    "featuredProjects": [
       {
         "title":"AJ IT Farm (Full Stack)",
         "category":"React | Node.js | Express.js | MongoDB",
         "image":"itFarm.png",
         "githubC":"https://github.com/AJBrohi/it-service-site-client",
         "githubS":"https://github.com/AJBrohi/it-service-site-server",
-        "live":"https://aj-it-farm.web.app"
+        "live":"https://aj-it-farm.web.app",
+        "description":"This is a digital consultancy website. You can get Digital Marketing, Website Development and SEO support for your startup or business."
       },
       {
         "title":"AJ Book Club (Full Stack)",
@@ -122,7 +123,8 @@
         "image":"bookClub.jpeg",
         "githubC":"https://github.com/AJBrohi/bookClub-client-fullStack",
         "githubS":"https://github.com/AJBrohi/bookClub-server-fullStack",
-        "live":"https://ajs-book-club.web.app/"
+        "live":"https://ajs-book-club.web.app/",
+        "description":"This site is a book-buying website. You can order books here. Admin can add books to database and see them in list."
       },
       {
         "title":"AJ Transportation (React)",
@@ -130,7 +132,8 @@
         "image":"transport.jpeg",
         "githubC":"https://github.com/AJBrohi/aj-transport-react-auth",
         "githuS":"",
-        "live":"https://sad-wing-80927f.netlify.app/"
+        "live":"https://sad-wing-80927f.netlify.app/",
+        "description":"A functional React website where you can have a transport service. You can find Bus, Car, Bike or Train service. Also, you can give your pickup and drop location."
       },
       {
         "title":"My Resume",
@@ -138,7 +141,64 @@
         "image":"resume.jpeg",
         "githubC":"https://github.com/AJBrohi/ajbrohi.github.io",
         "githubS":"",
-        "live":"https://ajbrohi.github.io/"
+        "live":"https://ajbrohi.github.io/",
+        "description":"This resume is made with HTML and CSS. It is a responsive site too."
+      },
+      {
+        "title":"Hotel Sea Alif",
+        "category":"HTML | CSS | JavaScript | PHP | MySQL",
+        "image":"seaAlif.jpeg",
+        "live":"http://hotelseaalif.com/",
+        "githubS":"",
+        "githubC":"https://github.com/AJBrohi/hotel-sea-alif-site",
+        "description":"This is a responsive room booking website for Hotel Sea Alif. You will get mail after you book."
+      },
+      {
+        "title":"Emergency Medical Service",
+        "category":"HTML | CSS | JavaScript | PHP | MySQL",
+        "image":"emergency.jpeg",
+        "live":"",
+        "githubS":"",
+        "githubC":"https://github.com/AJBrohi/emergency-medical-php",
+        "description":"This is a emergency medical service site. Here user can see nearest hospital from Google Map and request bike or ambulance."
+      }
+    ],
+    "allProjects": [
+      {
+        "title":"AJ IT Farm (Full Stack)",
+        "category":"React | Node.js | Express.js | MongoDB",
+        "image":"itFarm.png",
+        "githubC":"https://github.com/AJBrohi/it-service-site-client",
+        "githubS":"https://github.com/AJBrohi/it-service-site-server",
+        "live":"https://aj-it-farm.web.app",
+        "description":"This is a digital consultancy website. You can get Digital Marketing, Website Development and SEO support for your startup or business."
+      },
+      {
+        "title":"AJ Book Club (Full Stack)",
+        "category":"React | Node.js | Express.js | MongoDB",
+        "image":"bookClub.jpeg",
+        "githubC":"https://github.com/AJBrohi/bookClub-client-fullStack",
+        "githubS":"https://github.com/AJBrohi/bookClub-server-fullStack",
+        "live":"https://ajs-book-club.web.app/",
+        "description":"This site is a book-buying website. You can order books here. Admin can add books to database and see them in list."
+      },
+      {
+        "title":"AJ Transportation (React)",
+        "category":"React | Firebase",
+        "image":"transport.jpeg",
+        "githubC":"https://github.com/AJBrohi/aj-transport-react-auth",
+        "githuS":"",
+        "live":"https://sad-wing-80927f.netlify.app/",
+        "description":"A functional React website where you can have a transport service. You can find Bus, Car, Bike or Train service. Also, you can give your pickup and drop location."
+      },
+      {
+        "title":"My Resume",
+        "category":"HTML | CSS | JavaScript",
+        "image":"resume.jpeg",
+        "githubC":"https://github.com/AJBrohi/ajbrohi.github.io",
+        "githubS":"",
+        "live":"https://ajbrohi.github.io/",
+        "description":"This resume is made with HTML and CSS. It is a responsive site too."
       },
       {
         "title":"Football Leagues (React)",
@@ -146,7 +206,8 @@
         "image":"league.jpeg",
         "githubC":"https://github.com/AJBrohi/league-of-legends-react-router",
         "githubS":"",
-        "live":"https://gallant-brattain-8edf4a.netlify.app"
+        "live":"https://gallant-brattain-8edf4a.netlify.app",
+        "description":"Here you can see the list of all football leagues in the world. Also by clicking the Explore button you will be able to have the details of it."
       },
       {
         "title":"UCL Player Transfer",
@@ -154,63 +215,71 @@
         "image":"ucl.jpeg",
         "githubC":"https://github.com/AJBrohi/player-buying-react-site",
         "githubS":"",
-        "live":"https://priceless-davinci-f52228.netlify.app/"
+        "live":"https://priceless-davinci-f52228.netlify.app/",
+        "description":"My first react app. In this site each player contains a price. There you can see your choosen players' name and price. Also you can see total price."
       },
       {
         "title":"Temperature API",
         "category":"HTML | CSS | JavaScript | RestAPI",
         "image":"temparature.jpeg",
-        "live":"",
+        "live":"https://ajbrohi.github.io/ProgramingHero-WebDev/Milestone-5-API/25-api-practice/temperature-hot-master/",
         "githubS":"",
-        "githubC":"https://github.com/AJBrohi/ProgramingHero-WebDev/tree/main/Milestone-5-API/25-api-practice/temperature-hot-master"
+        "githubC":"https://github.com/AJBrohi/ProgramingHero-WebDev/tree/main/Milestone-5-API/25-api-practice/temperature-hot-master",
+        "description":"By using Openweather API, you can see the latest weather of any place you search."
       },
       {
         "title":"Pin Matcher",
         "category":"HTML | CSS | JavaScript",
         "image":"pin.jpeg",
-        "live":"",
+        "live":"https://ajbrohi.github.io/ProgramingHero-WebDev/Milestone-4-Integrate-Javascript/21-pin-matcher-master/",
         "githubS":"",
-        "githubC":"https://github.com/AJBrohi/ProgramingHero-WebDev/tree/main/Milestone-4-Integrate-Javascript/21-pin-matcher-master"
+        "githubC":"https://github.com/AJBrohi/ProgramingHero-WebDev/tree/main/Milestone-4-Integrate-Javascript/21-pin-matcher-master",
+        "description":"It's a pin generator and pin matcher using JS"
       },
       {
         "title":"Shopping Cart",
         "category":"HTML | CSS | JavaScript",
         "image":"cart.jpeg",
-        "live":"",
+        "live":"https://ajbrohi.github.io/ProgramingHero-WebDev/Milestone-4-Integrate-Javascript/20-shopping-cart/",
         "githubS":"",
-        "githubC":"https://github.com/AJBrohi/ProgramingHero-WebDev/tree/main/Milestone-4-Integrate-Javascript/20-shopping-cart"
+        "githubC":"https://github.com/AJBrohi/ProgramingHero-WebDev/tree/main/Milestone-4-Integrate-Javascript/20-shopping-cart",
+        "description":"This is a shopping cart part of a ecommerce site. Just made with JavaScript."
       },
       {
         "title":"Bank Dashboard",
         "category":"HTML | CSS | JavaScript",
         "image":"bank.jpeg",
-        "live":"",
+        "live":"https://ajbrohi.github.io/ProgramingHero-WebDev/Milestone-4-Integrate-Javascript/19-pioneer-bank",
         "githubS":"",
-        "githubC":"https://github.com/AJBrohi/ProgramingHero-WebDev/tree/main/Milestone-4-Integrate-Javascript/19-pioneer-bank"
+        "githubC":"https://github.com/AJBrohi/ProgramingHero-WebDev/tree/main/Milestone-4-Integrate-Javascript/19-pioneer-bank",
+        "description":"It's a dashboard of a bank account. Made with Javascript."
       },
       {
         "title":"E-Commerce Site",
         "category":"HTML | CSS",
         "image":"ecommerce.jpeg",
-        "live":"",
+        "live":"https://ajbrohi.github.io/ProgramingHero-WebDev/Assignments/2-responsive-website/",
         "githubS":"",
-        "githubC":"https://github.com/AJBrohi/ProgramingHero-WebDev/tree/main/Assignments/2-responsive-website"
+        "githubC":"https://github.com/AJBrohi/ProgramingHero-WebDev/tree/main/Assignments/2-responsive-website",
+        "description":"A responsive e-commerce website page. Made with HTML, CSS & Bootstrap."
       },
       {
         "title":"Airplane Ticket",
         "category":"HTML | CSS | JavaScript",
         "image":"airplane.jpeg",
-        "live":"",
+        "live":"https://ajbrohi.github.io/ProgramingHero-WebDev/Assignments/4-airplane-ticket/",
         "githubS":"",
-        "githubC":"https://github.com/AJBrohi/ProgramingHero-WebDev/tree/main/Assignments/4-airplane-ticket"
+        "githubC":"https://github.com/AJBrohi/ProgramingHero-WebDev/tree/main/Assignments/4-airplane-ticket",
+        "description":"A flight booking site page. Used HTML, CSS & JavaScript to develop this page."
       },
       {
         "title":"Hotel Sea Alif",
         "category":"HTML | CSS | JavaScript PHP | MySQL",
         "image":"seaAlif.jpeg",
-        "live":"",
+        "live":"http://hotelseaalif.com/",
         "githubS":"",
-        "githubC":"https://github.com/AJBrohi/hotel-sea-alif-site"
+        "githubC":"https://github.com/AJBrohi/hotel-sea-alif-site",
+        "description":"This is a responsive room booking website for Hotel Sea Alif. You will get mail after you book."
       },
       {
         "title":"Emergency Medical Service",
@@ -218,7 +287,8 @@
         "image":"emergency.jpeg",
         "live":"",
         "githubS":"",
-        "githubC":"https://github.com/AJBrohi/emergency-medical-php"
+        "githubC":"https://github.com/AJBrohi/emergency-medical-php",
+        "description":"This is a emergency medical service site. Here user can see nearest hospital from Google Map and request bike or ambulance."
       },
       {
         "title":"Mechanic Appointment System",
@@ -226,12 +296,33 @@
         "image":"mechanic.jpeg",
         "live":"",
         "githubS":"",
-        "githubC":"https://github.com/AJBrohi/hotel-sea-alif-site"
+        "githubC":"https://github.com/AJBrohi/hotel-sea-alif-site",
+        "description":"It's a mechanic appointment system site. Here you can see the mechanic list and book date for your car repair."
       }
     ]
   },
   "blogs":{
-    "blogsList": [
+    "featuredBlogs": [
+      {
+        "title":"Blog 1",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
+        "image":"",
+        "link":""
+      },
+      {
+        "title":"Blog 2",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
+        "image":"",
+        "link":""
+      },
+      {
+        "title":"Blog 3",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
+        "image":"",
+        "link":""
+      }
+    ],
+    "allBlogs": [
       {
         "title":"Blog 1",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
@@ -252,6 +343,18 @@
       },
       {
         "title":"Blog 4",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
+        "image":"",
+        "link":""
+      },
+      {
+        "title":"Blog 5",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
+        "image":"",
+        "link":""
+      },
+      {
+        "title":"Blog 6",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
         "image":"",
         "link":""

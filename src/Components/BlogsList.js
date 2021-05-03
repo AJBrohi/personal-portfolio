@@ -3,23 +3,23 @@ import Fade from "react-reveal";
 import { Link } from "react-router-dom";
 
 let id = 0;
-class Blog extends Component {
+class BlogsList extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const featuredBlogs = this.props.data.featuredBlogs.map(function (featuredBlogs) {
-      let blogImage = "images/blogs/" + featuredBlogs.image;
+    const allBlogs = this.props.data.allBlogs.map(function (allBlogs) {
+      let blogImage = "images/blogs/" + allBlogs.image;
 
       return (
         <div key={id++} className="columns portfolio-item">
           <div className="item-wrap">
             <div className="item-content">
-              <img alt={featuredBlogs.title} src={blogImage} />
+              <img alt={allBlogs.title} src={blogImage} />
               <div style={{ textAlign: "center" }}>
-                <h4>{featuredBlogs.title}</h4>
-                <p>{featuredBlogs.description}</p>
+                <h4>{allBlogs.title}</h4>
+                <p>{allBlogs.description}</p>
                 <p>
-                  <a target="_blank" style={{ textAlign: "center" }} href={featuredBlogs.link} rel="noreferrer">
+                  <a target="_blank" style={{ textAlign: "center" }} href={allBlogs.link} rel="noreferrer">
                     <button className="linkButton">Read More</button>
                   </a>
                 </p>
@@ -38,12 +38,11 @@ class Blog extends Component {
               <h1>Check Out Some of My Blogs</h1>
 
               <div id="portfolio-wrapper">
-                {featuredBlogs}
-
-                <Link to="/blogs">
-                <button className="portfolioButton">Click for More</button>
-              </Link>
+                {allBlogs}
               </div>
+              <Link to="/">
+                    <button style={{margin:'30px', borderRadius:'10px'}}>Back To Home</button>
+                </Link>
             </div>
           </div>
         </Fade>
@@ -52,4 +51,4 @@ class Blog extends Component {
   }
 }
 
-export default Blog;
+export default BlogsList;

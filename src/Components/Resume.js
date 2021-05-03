@@ -56,6 +56,9 @@ class Resume extends Component {
                 <div className="bars">
                   <ul className="skills">
                     <li>
+                      <em><span className="listTitle">Languages</span></em>
+                    </li>
+                    <li>
                       <em>Java</em>
                     </li>
                     <li>
@@ -67,26 +70,36 @@ class Resume extends Component {
                     <li>
                       <em>PHP</em>
                     </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="middle1">
+                <div className="bars">
+                  <ul className="skills">
+                    <li>
+                      <em><span className="listTitle">Front End</span></em>
+                    </li>
                     <li>
                       <em>HTML</em>
                     </li>
                     <li>
                       <em>CSS</em>
                     </li>
+                    <li>
+                      <em>React.js</em>
+                    </li>
+
                   </ul>
                 </div>
               </div>
-              <div className="middle">
+              <div className="middle2">
                 <div className="bars">
                   <ul className="skills">
                     <li>
-                      <em>React.js</em>
+                      <em><span className="listTitle">Back End</span></em>
                     </li>
                     <li>
                       <em>Node.js</em>
-                    </li>
-                    <li>
-                      <em>React.js</em>
                     </li>
                     <li>
                       <em>Express.js</em>
@@ -103,6 +116,9 @@ class Resume extends Component {
               <div className="right">
                 <div className="bars">
                   <ul className="skills">
+                  <li>
+                      <em><span className="listTitle">Tools</span></em>
+                    </li>
                     <li>
                       <em>Rest API</em>
                     </li>
@@ -134,7 +150,7 @@ class Resume extends Component {
           </div>
         </Slide>
 
-        
+
       </section>
     );
   }

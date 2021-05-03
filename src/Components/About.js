@@ -18,6 +18,16 @@ class About extends Component {
     const email = this.props.data.email;
     const resumeDownload = this.props.data.resumedownload;
 
+    const networks = this.props.data.social.map(function (network) {
+      return (
+        <li key={network.name}>
+          <a href={network.url}>
+            <i className={network.className}></i>
+          </a>
+        </li>
+      );
+    });
+
     return (
       <section id="about">
         <Fade duration={1000}>
@@ -42,11 +52,14 @@ class About extends Component {
                     <span>{phone}</span>
                     <br />
                     <span>{email}</span>
+                    <br />
+
+                    <ul className="social-links">{networks}</ul>
                   </p>
                 </div>
                 <div className="columns download">
                   <p>
-                  <a download="" href={pdf} className="button">
+                    <a download="" href={pdf} className="button">
                       <i className="fa fa-download"></i>Download Resume
                     </a>
                   </p>

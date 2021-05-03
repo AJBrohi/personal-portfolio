@@ -1,14 +1,17 @@
 import React, { Component } from "react";
 import ReactGA from "react-ga";
-import $ from "jquery";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 import "./App.css";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import About from "./Components/About";
-import Resume from "./Components/Resume";
-import Contact from "./Components/Contact";
-import Portfolio from "./Components/Portfolio";
-import Blog from "./Components/Blog";
+import $ from "jquery";
+
+import Home from "./Components/Home";
+import PortfolioList from "./Components/PortfolioList";
+import NotFound from "./Components/NotFound";
+import BlogsList from "./Components/BlogsList";
 
 class App extends Component {
   constructor(props) {
@@ -18,7 +21,7 @@ class App extends Component {
       resumeData: {}
     };
 
-    ReactGA.initialize("UA-110570651-1");
+    ReactGA.initialize("G-R5Q7BR4BWT");
     ReactGA.pageview(window.location.pathname);
   }
 
@@ -27,10 +30,10 @@ class App extends Component {
       url: "./resumeData.json",
       dataType: "json",
       cache: false,
-      success: function(data) {
+      success: function (data) {
         this.setState({ resumeData: data });
       }.bind(this),
-      error: function(xhr, status, err) {
+      error: function (xhr, status, err) {
         console.log(err);
         alert(err);
       }
@@ -43,15 +46,25 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <Header data={this.state.resumeData.main} />
-        <About data={this.state.resumeData.main} />
-        <Portfolio data={this.state.resumeData.portfolio} />
-        <Resume data={this.state.resumeData.resume} />
-        <Blog data={this.state.resumeData.blogs} />
-        <Contact data={this.state.resumeData.main} />
-        <Footer data={this.state.resumeData.main} />
-      </div>
+      <Router>
+        <Switch>
+          <Route path="/projects">
+            <PortfolioList data={this.state.resumeData.portfolio}></PortfolioList>
+          </Route>
+
+          <Route path="/blogs">
+            <BlogsList data={this.state.resumeData.blogs}></BlogsList>
+          </Route>
+
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
+
+          <Route path="*">
+            <NotFound></NotFound>
+          </Route>
+        </Switch>
+      </Router>
     );
   }
 }

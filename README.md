@@ -12,7 +12,12 @@
 * All sections added
 * Made dynamic with creating data
 
-### v2.1 (02/05/2021)
-* Firebase Deploy Done
+#### v2.1 (02/05/2021)
+* First firebase deploy done
 * Email sending option and download cv is available now
 * Thumbnail added
+
+### v3 (03/05/2021)
+* Now you can see my featured projects and blogs on home page
+* A new project page and blog page created
+* A little bit of polishing done

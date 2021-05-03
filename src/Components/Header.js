@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 import Typed from 'react-typed';
+import Navbar from "./Navbar";
 
 class Header extends Component {
   render() {
@@ -14,55 +15,20 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg type="cobweb" bg={true} />
-
-        <nav id="nav-wrap">
-          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-            Show navigation
-          </a>
-          <a className="mobile-btn" href="#home" title="Hide navigation">
-            Hide navigation
-          </a>
-
-          <ul id="nav" className="nav">
-            <li className="current">
-              <a className="smoothscroll" href="#home">
-                Home
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#about">
-                About
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#portfolio">
-                Portfolio
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#skills">
-                Skills
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#blogs">
-                Blogs
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#contact">
-                Contacts
-              </a>
-            </li>
-          </ul>
-        </nav>
-
+        {/* "color"
+"ball"
+"lines"
+"thick"
+"circle"
+"cobweb"
+"polygon"
+"square"
+"tadpole"
+"fountain"
+"random"
+"custom" */}
+        <ParticlesBg num={500} type="lines" bg={true} />
+        <Navbar></Navbar>
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
