@@ -304,10 +304,10 @@
   "blogs":{
     "featuredBlogs": [
       {
-        "title":"Blog 1",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
-        "image":"",
-        "link":""
+        "title":"A Glimpse of JavaScript’s String, Number and Arrays",
+        "description":"JavaScript (js) is a dynamic client-side script language. It is also used on the server-side by Nodejs. Don’t get confused by thinking that Java and JavaScript are the same.....",
+        "image":"glimpseOfJS.png",
+        "link":"https://ajbrohi.medium.com/a-glimpse-of-javascripts-string-number-and-arrays-774a3e7da03"
       },
       {
         "title":"Blog 2",
@@ -324,10 +324,10 @@
     ],
     "allBlogs": [
       {
-        "title":"Blog 1",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
+        "title":"A Glimpse of JavaScript’s String, Number and Arrays",
+        "description":"JavaScript (js) is a dynamic client-side script language. It is also used on the server-side by Nodejs. Don’t get confused by thinking that Java and JavaScript are the same.....",
         "image":"",
-        "link":""
+        "link":"https://ajbrohi.medium.com/a-glimpse-of-javascripts-string-number-and-arrays-774a3e7da03"
       },
       {
         "title":"Blog 2",

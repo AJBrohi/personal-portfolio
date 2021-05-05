@@ -19,5 +19,8 @@
 
 ### v3 (03/05/2021)
 * Now you can see my featured projects and blogs on home page
-* A new project page and blog page created
+* A new project page, blog page and not found page created
 * A little bit of polishing done
+
+#### v3.1 (06/05/2021)
+* 1st blog added
