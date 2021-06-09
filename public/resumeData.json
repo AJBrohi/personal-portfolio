@@ -109,6 +109,15 @@
   "portfolio":{
     "featuredProjects": [
       {
+        "title":"Chatting App",
+        "category":"React-Native",
+        "image":"chat.png",
+        "githubC":"https://github.com/AJBrohi/first-react-native-project",
+        "githubS":"",
+        "live":"https://expo.io/@ajbrohi/chatting-react-native",
+        "description":"This is a chatting App. You can login with your username and chat."
+      },
+      {
         "title":"AJ IT Farm (Full Stack)",
         "category":"React | Node.js | Express.js | MongoDB",
         "image":"itFarm.png",
@@ -136,15 +145,6 @@
         "description":"A functional React website where you can have a transport service. You can find Bus, Car, Bike or Train service. Also, you can give your pickup and drop location."
       },
       {
-        "title":"My Resume",
-        "category":"HTML | CSS | JavaScript",
-        "image":"resume.jpeg",
-        "githubC":"https://github.com/AJBrohi/ajbrohi.github.io",
-        "githubS":"",
-        "live":"https://ajbrohi.github.io/",
-        "description":"This resume is made with HTML and CSS. It is a responsive site too."
-      },
-      {
         "title":"Hotel Sea Alif",
         "category":"HTML | CSS | JavaScript | PHP | MySQL",
         "image":"seaAlif.jpeg",
@@ -164,6 +164,15 @@
       }
     ],
     "allProjects": [
+      {
+        "title":"Chatting App (React-Native)",
+        "category":"React-Native",
+        "image":"chat.png",
+        "githubC":"https://github.com/AJBrohi/first-react-native-project",
+        "githubS":"",
+        "live":"https://expo.io/@ajbrohi/chatting-react-native",
+        "description":"This is a chatting App. You can login with your username and chat."
+      },
       {
         "title":"AJ IT Farm (Full Stack)",
         "category":"React | Node.js | Express.js | MongoDB",
@@ -310,54 +319,42 @@
         "link":"https://ajbrohi.medium.com/a-glimpse-of-javascripts-string-number-and-arrays-774a3e7da03"
       },
       {
-        "title":"Blog 2",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
-        "image":"",
-        "link":""
+        "title":"JavaScript Data Types, and Error Handling with a little bit of ES6",
+        "description":"More about JavaScript (JS). I will cover the topic of data types, error handling, and some ES6. Also, there is a bonus section today at the end of the blog.....",
+        "image":"dataTypesofJS.png",
+        "link":"https://ajbrohi.medium.com/javascript-data-types-and-error-handling-with-a-little-bit-of-es6-4c4824f3755a"
       },
       {
-        "title":"Blog 3",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
-        "image":"",
-        "link":""
+        "title":"React Virtual-DOM and JSX",
+        "description":"In today’s story, I will talk about the Virtual-DOM of React and JSX in short. Also, a bonus part is here at the end too......",
+        "image":"ReactVDOM.png",
+        "link":"https://ajbrohi.medium.com/react-virtual-dom-and-jsx-f90fc3c8d9e2"
       }
     ],
     "allBlogs": [
       {
         "title":"A Glimpse of JavaScript’s String, Number and Arrays",
         "description":"JavaScript (js) is a dynamic client-side script language. It is also used on the server-side by Nodejs. Don’t get confused by thinking that Java and JavaScript are the same.....",
-        "image":"",
+        "image":"glimpseOfJS.png",
         "link":"https://ajbrohi.medium.com/a-glimpse-of-javascripts-string-number-and-arrays-774a3e7da03"
       },
       {
-        "title":"Blog 2",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
-        "image":"",
-        "link":""
+        "title":"JavaScript Data Types, and Error Handling with a little bit of ES6",
+        "description":"More about JavaScript (JS). I will cover the topic of data types, error handling, and some ES6. Also, there is a bonus section today at the end of the blog.....",
+        "image":"dataTypesofJS.png",
+        "link":"https://ajbrohi.medium.com/javascript-data-types-and-error-handling-with-a-little-bit-of-es6-4c4824f3755a"
       },
       {
-        "title":"Blog 3",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
-        "image":"",
-        "link":""
+        "title":"React Virtual-DOM and JSX",
+        "description":"In today’s story, I will talk about the Virtual-DOM of React and JSX in short. Also, a bonus part is here at the end too......",
+        "image":"ReactVDOM.png",
+        "link":"https://ajbrohi.medium.com/react-virtual-dom-and-jsx-f90fc3c8d9e2"
       },
       {
-        "title":"Blog 4",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
-        "image":"",
-        "link":""
-      },
-      {
-        "title":"Blog 5",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
-        "image":"",
-        "link":""
-      },
-      {
-        "title":"Blog 6",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci nibh, interdum sit amet hendrerit eu, aliquet nec erat.....",
-        "image":"",
-        "link":""
+        "title":"Let’s Learn More about JavaScript",
+        "description":"I am guessing that we all know less and more about JavaScript. Still, I am giving a little bit of an introduction of JS.......",
+        "image":"moreJS.png",
+        "link":"https://ajbrohi.medium.com/lets-learn-more-about-javascript-75d926a5e4e3"
       }
     ]
   }

@@ -88,6 +88,12 @@ class Resume extends Component {
                     <li>
                       <em>React.js</em>
                     </li>
+                    <li>
+                      <em>React Native</em>
+                    </li>
+                    <li>
+                      <em>React Redux</em>
+                    </li>
 
                   </ul>
                 </div>
@@ -116,7 +122,7 @@ class Resume extends Component {
               <div className="right">
                 <div className="bars">
                   <ul className="skills">
-                  <li>
+                    <li>
                       <em><span className="listTitle">Tools</span></em>
                     </li>
                     <li>
